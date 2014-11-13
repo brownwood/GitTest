@@ -3,8 +3,11 @@ package com.globalsoftng.gittest;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
+	
+	private TextView text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
